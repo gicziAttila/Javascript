@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Javascript alapok</title>
+    <script>
+        //kiírás
+        document.write("Ezt a szöveget a javascript írta ki")
+        //adattípusok
+        let a = 23
+        let b = 3.14
+        let nev = 'Géza'
+        let vane = false
+
+        console.log(nev)
+        document.write('<br>' + a + '<br>')
+        //műveletek
+        let c = a+b
+        console.log(c)
+        console.log(23 % 5)
+        //tömb létrehozása
+        let szamok = [3, 4, 6, 7, 1, 2, 9]
+        let i;
+        for (i=0; i<szamok.length; i++) {
+            document.write('<br>' + szamok[i])
+        }
+        document.write('<br>')
+        let osszeg = 0
+        for (i=0; i<szamok.length; i++) {
+            osszeg += szamok[i]
+        }
+        document.write('<br>' + osszeg)
+    </script>
+</head>
+<body>
+    <p>Ezt a szöveget pedig html</p>
+</body>
+</html>
